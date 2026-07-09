@@ -37,7 +37,7 @@ const Navbar = () => {
               <button
                 onClick={() =>
                   window.open(
-                    "https://final-year-project-aqlkthscj-super-simran.vercel.app/",
+                    "https://final-year-project-aqlkthscj-super-simran.vercel.app",
                     "_blank"
                   )
                 }
