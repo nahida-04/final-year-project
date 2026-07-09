@@ -1,7 +1,7 @@
 let books = [];
 
 /* Load books */
-fetch("http://127.0.0.1:5000/books")
+fetch("https://final-year-project-1431.onrender.com/books")
   .then(res => res.json())
   .then(data => {
     books = data;
