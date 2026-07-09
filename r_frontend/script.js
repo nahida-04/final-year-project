@@ -42,7 +42,7 @@ function getRecommendations() {
     return;
   }
 
-  fetch("https://final-year-project-1431.onrender.com/recommend", {
+  fetch("https://final-year-project-1-431i.onrender.com/recommend", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ language: lang, category: genre, title })
