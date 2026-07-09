@@ -33,15 +33,18 @@ const Navbar = () => {
         </NavLink>
         
         {/* Recommender */}
-        <li className='flex flex-col items-center gap-1'>
-            <a 
-            href="https://final-year-project-aqlkthscj-super-simran.vercel.app/" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            >
-            <p>RECOMMENDER</p>
-            </a>
-        </li>
+        <li className="flex flex-col items-center gap-1">
+              <button
+                onClick={() =>
+                  window.open(
+                    "https://final-year-project-aqlkthscj-super-simran.vercel.app/",
+                    "_blank"
+                  )
+                }
+              >
+                <p>RECOMMENDER</p>
+              </button>
+         </li>
 
         <NavLink to='/about' className='flex flex-col items-center gap-1'>
             <p>ABOUT</p>
