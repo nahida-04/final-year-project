@@ -18,7 +18,11 @@ BOOKS = []
 with open("books.csv", encoding="utf-8") as f:
     reader = csv.DictReader(f)
     BOOKS = list(reader)
-
+    
+@app.route("/")
+def home():
+    return "Backend Working"
+    
 @app.route("/books")
 def books():
     return jsonify(BOOKS)
