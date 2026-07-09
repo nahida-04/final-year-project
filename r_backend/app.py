@@ -23,6 +23,10 @@ with open("books.csv", encoding="utf-8") as f:
 def home():
     return "Backend Working"
     
+@app.route("/recommend", methods=["OPTIONS"])
+def recommend_options():
+    return "", 200
+    
 @app.route("/books")
 def books():
     return jsonify(BOOKS)
