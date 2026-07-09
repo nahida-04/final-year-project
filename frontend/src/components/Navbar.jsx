@@ -35,7 +35,7 @@ const Navbar = () => {
         {/* Recommender */}
         <li className='flex flex-col items-center gap-1'>
             <a 
-            href="final-year-project-aqlkthscj-super-simran.vercel.app" 
+            href="https://final-year-project-aqlkthscj-super-simran.vercel.app/" 
             target="_blank" 
             rel="noopener noreferrer"
             >
