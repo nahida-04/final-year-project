@@ -6,7 +6,12 @@ import csv
 from recommender import recommend_books
 
 app = Flask(__name__)
-CORS(app)
+
+CORS(
+    app,
+    resources={r"/*": {"origins": "*"}},
+    supports_credentials=False
+)
 
 BOOKS = []
 
